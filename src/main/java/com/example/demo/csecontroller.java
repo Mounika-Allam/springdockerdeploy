@@ -13,7 +13,7 @@ package com.example.demo;
 	 }
 		@GetMapping("/mul")
 		public int mulcse(@RequestParam int a, @RequestParam int b) {
-			 return a+b;
+			 return a*b;
 		 }
 		
 
